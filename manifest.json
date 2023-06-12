@@ -1,0 +1,21 @@
+{
+"name": "Tab Refresher by @swiecicki",
+    "description": "Tab carousel, it will refresh next tab and move into it every X seconds.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "/img/16x16.png",
+        "32": "/img/32x32.png",
+        "128": "/img/128x128.png"
+    },
+"background": {
+"service_worker": "js/background.js"
+},
+"action": {
+"default_icon": "img/icon.png",
+"default_popup": "popup.html"
+},
+"permissions": [
+"tabs"
+]
+}
